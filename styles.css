@@ -4,7 +4,7 @@
     color: #f9faf8;
 }
 
-.intro, .navigation {
+.intro, .navigation, .footer {
     font-size: 18px;
     color: #E5E7EB;
     background-color: #1F2937;
@@ -27,7 +27,8 @@ button {
 .action {
     background-color:#3882F6;
 }
-  .header {
+
+.header {
       font-size: 24px;
       color: #F9FAF8;
       background-color: #1F2937;
@@ -69,3 +70,6 @@ img {
     font-size: 20px;
     font-weight: 700;
 }
+
+
+/* formatting  */
