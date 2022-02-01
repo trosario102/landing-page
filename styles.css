@@ -37,3 +37,15 @@ button {
     height: auto;
     width: 330px
 }
+
+.middle {
+    font-size: 18px;
+    background-color: white;
+    color: #1F2937;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
