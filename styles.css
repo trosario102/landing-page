@@ -16,6 +16,17 @@ ul {
     padding: 0;
   }
 
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 10px;
+    border:1px solid white;
+}
+
+.action {
+    background-color:#3882F6;
+}
   .header {
       font-size: 24px;
       color: #F9FAF8;
