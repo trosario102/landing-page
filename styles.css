@@ -73,3 +73,14 @@ img {
 
 
 /* formatting  */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-1 {
+    display: flex;
+    flex: 1;
+    justify-self: space-evenly;
+}
