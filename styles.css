@@ -137,5 +137,26 @@ a {
 
 .info {
     max-width: 200px;
+    font-size: 18px;
+    color: #E5E7EB;
   }
-  
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+
+}
+
+.quote {
+    width: 720px;
+}
+
+.quote-author {
+    align-self: flex-end;
+    padding: 30px;
+    margin-right: 300px;
+
+}
