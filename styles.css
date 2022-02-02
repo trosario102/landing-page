@@ -25,7 +25,12 @@ button {
 }
 
 .action {
-    background-color:#3882F6;
+    background-color:white;
+    padding: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .header {
@@ -158,5 +163,15 @@ a {
     align-self: flex-end;
     padding: 30px;
     margin-right: 300px;
+
+}
+
+.action .container {
+    background-color: #3882F6;
+    width: 1000px;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+
 
 }
