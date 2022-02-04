@@ -39,17 +39,19 @@ button {
       background-color: #1F2937;
   }
 
-img {
+  .main-pic {
+    height: auto;
+    width: 330px
+}
+
+.middle img {
     height:200px;
     width: 200px;
     border-radius: 10px;
     border:5px solid #3882F6;
 }
 
-.main-pic {
-    height: auto;
-    width: 330px
-}
+
 
 
 .middle {
@@ -193,5 +195,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 12px;
+    font-weight: 400px;
     padding: 20px;
 }
