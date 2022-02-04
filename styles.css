@@ -40,8 +40,10 @@ button {
   }
 
 img {
-    height:auto;
-    width: 230px;
+    height:200px;
+    width: 200px;
+    border-radius: 10px;
+    border:5px solid #3882F6;
 }
 
 .main-pic {
@@ -125,6 +127,7 @@ a {
 
 .middle {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .title {
@@ -143,7 +146,10 @@ a {
 .info {
     max-width: 200px;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #686868;
+    width: 200px;
+    text-align: center;
+
   }
 
 .quote-section {
@@ -172,10 +178,17 @@ a {
     padding: 30px 0px;
     display: flex;
     justify-content: space-evenly;
-
-
+    border-radius: 10px;
+    border:1px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
 }
 
+.action-time {
+    font-weight: 700;
+    font-size: 18px;
+}
 .footer {
     display: flex;
     justify-content: center;
